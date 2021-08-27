@@ -1,4 +1,5 @@
-@media (max-width: 738px){
+/*
+@media (max-width: 768px ){
     .top {
         padding: 0 12px;
     }
@@ -15,5 +16,68 @@
     .team-items {
         width: 100%;
         margin-bottom: 50px;
+    }
+}
+*/
+/* mobile & Tablet: width < 1024px*/ 
+@media only screen and (max-width: 63.9375em) {
+    .about-item {
+        width: 100%;
+        text-align: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .food-items {
+        width: 100%;
+    }
+    /* footer */
+    .footer-bg {
+        width: 100%;
+    }
+}
+
+
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .phan-hoi-item {
+        width: 100%;
+    }
+    .phan-hoi-item:hover {
+        width: 100%;
+    }
+    /* team */ 
+    .team-items {
+        width: 100%;
+    }
+    .footer-item {
+        width: 50%;
+    }
+    .footer h2 {
+        font-size: 20px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+    .section-title h2::before {
+        font-size: 15px;
+    }
+    .section-title h2 {
+        font-size: 20px;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .phan-hoi-item {
+        width: 45%;
+        margin-top: 15px;
+    }
+    .phan-hoi-item:hover {
+        width: 45%;
+    }
+    /* team */
+    .team-items {
+        width: 50%;
     }
 }

@@ -348,6 +348,7 @@ color: var(--sub-color);
 /*-------------- phan hoi ----------------*/
 .phan-hoi {
     background-color: var(--main-color);
+    padding-bottom: 50px;
 }
 .phan-hoi-items {
     display: flex;
@@ -406,6 +407,7 @@ color: var(--sub-color);
 /* ----------------------------team --------------------------- */
 .team {
     background-color: var(--bg-color);
+    padding-bottom: 50px ;
     
 }
 .team-items {
@@ -419,7 +421,8 @@ color: var(--sub-color);
     border-radius: 10px;
     transition: all 0.4s ease;
 }
-/*.overlay {
+/* lafm theem nghichj ----------------------------------- */
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -439,7 +442,7 @@ color: var(--sub-color);
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-}*/
+}
 .team-items:hover .team-items-text {
     background-color: var(--sub-color);
     transform: translateY(-50px);
