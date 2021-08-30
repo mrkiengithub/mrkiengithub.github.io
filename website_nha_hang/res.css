@@ -49,9 +49,9 @@
     /* team */ 
     .team-items {
         width: 100%;
-    }
+    } /* footer */
     .footer-item {
-        width: 50%;
+        width: 100%;
     }
     .footer h2 {
         font-size: 20px;
